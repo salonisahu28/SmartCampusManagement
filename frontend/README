@@ -1,0 +1,7 @@
+TWO FILES, SAME CONTENT, TWO PURPOSES:
+
+1. index.html        -> double-click this to RUN the prototype as a webpage
+2. source-code.txt    -> double-click this to VIEW the code (opens directly 
+                         in Notepad since it's a .txt file, no extra steps needed)
+
+Both files contain the exact same HTML/CSS/JavaScript code.
