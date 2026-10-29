@@ -1,9 +1,13 @@
 (() => {
   "use strict";
 
-  const API_BASE = (window.location.protocol === "file:" || (window.location.port !== "8080" && window.location.port !== ""))
+  
+const API_BASE =
+  window.location.hostname === "localhost" ||
+  window.location.hostname === "127.0.0.1"
     ? "http://localhost:8080"
-    : window.location.origin;
+    : "https://smart-campus-management-wm5g-4gczlhy4s-g-46.vercel.app";
+
   const ROLES = ["Student", "Admin", "Faculty"];
   const CATEGORIES = ["Electricity", "Cleanliness", "Infrastructure", "Maintenance", "Other"];
   const STATUSES = [
