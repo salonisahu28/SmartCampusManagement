@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Smart Campus — Complaint Management System (Backend)
 
 Matches the tech stack and API contracts from the Presentation-2 deck (Slides 5–7):
@@ -30,3 +31,6 @@ Student registration fields: `name`, `email`, `password`, optional `departmentId
 - **Notifications module** → `service/NotificationService.java`
 - **Analytics module** → `service/ComplaintService.java#pendingByDepartment`, `controller/AnalyticsController.java`
 - **Database / ER schema** → `resources/schema.sql`
+=======
+# SmartCampusManagement
+>>>>>>> origin/main
